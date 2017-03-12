@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 	box-sizing: border-box;
 }
@@ -318,3 +319,204 @@ input[type=submit]{
 
 
 
+=======
+body{
+
+	background-image:url(../cork-wallet/cork-wallet.png);
+	position:absolute;
+	height: 100vh;
+	width: 100vw;
+	margin:0;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+header{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	width:100vw;
+	height:10vh;
+	position: fixed;
+	top:0;
+	text-align: justify;
+    letter-spacing: 1px;
+    color: #fff;
+}
+header h1,
+header nav {
+    display: inline-block;
+}
+header a{
+	padding-right: 1vw;
+	color: #c7c9cc;
+}
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+header h1 {
+    height: 100%;
+    background:#4aaaa5 ;
+	margin-top:0%;
+	margin-left:7%;
+}
+
+header h1::before {
+    content:'';
+    display: inline-block;
+    vertical-align: middle;  
+    height: 100%;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+img#me{
+	width:auto;
+	height:19.95vh;
+}
+img.icon{
+	width: auto;
+	margin:0.5vw;
+	height: 7.98vh;
+	box-shadow: 0.2vw 0.2vw 0.2vw gray;
+}
+
+p{
+	color:#777777
+}
+
+footer{
+	position:fixed;
+	bottom: 0vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background: #666666;
+	height: 10vh;
+	width:100vw;
+	color: white;
+	border-top: 7px solid #4aaaa5 ;
+}
+div#connect h4{
+	color: #4aaaa5;
+	font-size:150%;
+	margin-top:5%;
+	margin-bottom:5%;
+
+}
+
+
+#about{
+	border-right: 1px solid #c7c9cc;
+}
+#port{
+	padding-left: 1vw;
+	border-right: 1px solid #c7c9cc;
+}
+#cont{
+	padding-left: 1vw;
+	margin-right:17vw;
+}
+
+#main{
+	
+	width:42.7vw;
+	height: 60vh;
+	background: white;
+	margin-left:7%;
+	padding-right: 2.21vw ;
+	padding-left:2.21vw;
+	position: fixed;
+	top:19vh;
+	border-color: 2px solid #dddddd;
+	
+}
+section h2{
+	border:0;
+	font-size: 180%;
+	color:#4aaaa5 ;
+
+}
+section hr{
+	height:.3vh;
+	color: #dcdfe5;
+	background:#dcdfe5  ;
+	border:0;
+}
+
+div hr{
+	height:.2vh;
+	color: #dcdfe5;
+	background:#dcdfe5  ;
+	border:0;
+}
+
+#me{
+	width:20%;
+	height:auto;
+	float:left;
+	margin-right:5%;
+}
+
+#connect{
+	width:15.88vw;
+	height:26.6vh;
+	padding-left: 2vw;
+	padding-right:2vw;
+	position: fixed;
+	left:65%;
+	top:19vh;
+	border:0;
+	background-color: white;
+	text-align: center;
+	
+}
+
+/*Portfolio Stle*/
+img#hang{
+	display:inline-block;
+	margin:auto;
+	height:25vh;
+	width:auto;
+} 
+img#rpg{
+	display:inline-block;
+	height:25vh;
+	width: auto;
+} 
+img#trivia {
+	display:inline-block;
+	margin: auto;
+	height:25vh;
+	width:auto;
+}
+img#rutgers {
+	display:inline-block;
+	margin: auto;
+	height:25vh;
+	width:auto;
+}
+img#rock{
+display:inline-block;
+	margin: auto;
+	height:25vh;
+	width:auto;
+}
+input.bar{
+	color: lightgray;
+	width: 100%;
+}
+form{
+	height:100%;
+}
+form textarea{
+	color: lightgray;
+	width:100%;
+	height: 40%;
+}
+>>>>>>> 4f1931f41b9d834dd2ddf2a48dacc6272feddb01
